@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "home";  // main.jsp를 반환
+        return "home";
     }
 }
